@@ -1,5 +1,5 @@
 const fs = require('fs');
-const sort = require("./script_2")
+const sort = require("./script_3")
 
 const fileName = process.argv[2];
 
