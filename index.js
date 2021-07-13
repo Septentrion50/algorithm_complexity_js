@@ -13,5 +13,5 @@ fs.readFile(fileName, 'utf8', (error, data) => {
     console.log(dataArr); // TEST Start
     const sorter = new sort(dataArr);
     console.log(dataArr); // TEST End
-    console.log(`This algorithm sorted our array using ${sorter.count} comparisons.`)
+    console.log(`This algorithm sorted our array using ${sorter.count} comparisons.`);
 })
