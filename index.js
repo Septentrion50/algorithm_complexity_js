@@ -8,7 +8,7 @@ fs.readFile(fileName, 'utf8', (error, data) => {
         console.log(error.message);
         return;
     }
-    const strArr = data.split(' ')
+    const strArr = data.split(' ');
     const dataArr = strArr.map(x => Number.parseInt(x, 10));
     console.log(dataArr); // TEST Start
     const sorter = new sort(dataArr);
